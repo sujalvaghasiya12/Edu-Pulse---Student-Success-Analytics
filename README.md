@@ -1,4 +1,5 @@
 🎓 EduPulse - Student Success Analytics
+<pre>
 EduPulse is an AI-powered predictive analytics platform for identifying students at risk of academic challenges and providing personalized recommendations.
 
 📋 Features
@@ -104,6 +105,7 @@ Streamlit team for the amazing framework
 Educational researchers for insights into student success factors
 
 Open source community for invaluable tools and libraries
+></pre>
 
 
 
