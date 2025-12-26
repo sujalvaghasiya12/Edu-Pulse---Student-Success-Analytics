@@ -1,0 +1,159 @@
+/* 
+EduPulse - Student Success Analytics
+Modern CSS Styles
+*/
+
+/* Main Layout */
+.stApp {
+    background-color: #f8f9fa;
+}
+
+/* Header Styling */
+.main-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2.5rem 2rem;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.main-header h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* Card Styling */
+.metric-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+    border: 1px solid #e9ecef;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Progress Bars */
+.progress-container {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.progress-bar {
+    height: 10px;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+/* Risk Level Colors */
+.risk-high {
+    color: #FF6B6B;
+    font-weight: 600;
+}
+
+.risk-medium {
+    color: #FFD166;
+    font-weight: 600;
+}
+
+.risk-low {
+    color: #06D6A0;
+    font-weight: 600;
+}
+
+/* Button Styling */
+.stButton > button {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Styling */
+.css-1d391kg {
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Tab Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px 8px 0 0;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+/* Alert Boxes */
+.stAlert {
+    border-radius: 8px;
+    border-left: 4px solid;
+}
+
+/* Chart Containers */
+.plotly-chart {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Input Fields */
+.stSlider > div > div {
+    color: #4A90E2;
+}
+
+.stSelectbox > div > div {
+    border-radius: 8px;
+}
+
+/* Table Styling */
+.stTable {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-header {
+        padding: 1.5rem 1rem;
+    }
+    
+    .main-header h1 {
+        font-size: 2rem;
+    }
+    
+    .metric-card {
+        padding: 1rem;
+    }
+}
